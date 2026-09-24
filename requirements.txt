@@ -1,0 +1,6 @@
+pdfplumber
+numpy
+pandas
+python-dotenv
+sentence-transformers
+openai
