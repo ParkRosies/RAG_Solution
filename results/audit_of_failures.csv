@@ -1,0 +1,50 @@
+row_index,audit_label,note,question,source_docs,audit_group
+28,acceptable (judge/reference issue),"Correct figures; judge failed it over units ($15,338M vs $15.3B)",How has Intel's total net sales fluctuated over historical periods?,*INTC*,high figure recall
+52,acceptable (judge/reference issue),"Correct; extra real events (McAfee, NAND) not a fault",Has Intel reported any significant business acquisitions or divestitures in these quarterly reports?,*INTC*,high figure recall
+72,acceptable (judge/reference issue),Gives -3%/$2.4B net sales driver; judge over-strict,"In the second quarter of 2023, what was the primary driver behind the change in Apple's net income?",*2023 Q2 AAPL*,high figure recall
+77,acceptable (judge/reference issue),"Correct $7,709M; extra driver detail is accurate","In the first quarter of 2023, how much did Apple spend on research and development, and what was the focus of this expen",*2023 Q1 AAPL*,high figure recall
+91,acceptable (judge/reference issue),"Correct value ($6,844M = quarter ended Dec 31, 2022, i.e. filing 'Q1 2023')","How much has Microsoft invested in research and development in the first quarter of 2023, and what were the strategic pr",*2023 Q1 MSFT*,high figure recall
+107,acceptable (judge/reference issue),"Correct $1,875M; reference 'focus areas' are revenue drivers not R&D","How much did NVIDIA allocate to research and development in Q1 2023, and what were the key areas of focus?",*2023 Q1 NVDA*,high figure recall
+38,acceptable (judge/reference issue),Reference itself says section not present; answer says the same and adds real cost data,"In Amazon's Q2 2023 10-Q, how does the discussion on employee compensation and benefits in the human resources section r",*2023 Q2 AMZN*,high figure recall
+173,acceptable (judge/reference issue),"Correct SBC $1,576M/$842M; judge wanted more CODM wording","In NVIDIA's Q2 2023 10-Q, how does the discussion on employee compensation in the human resources section relate to the ",*2023 Q2 NVDA*,high figure recall
+186,acceptable (judge/reference issue),Answer finds real FX figures; reference says none discussed,"In Amazon's Q2 2023 report, examine the correlation between revenues from international markets and the discussion on cu",*2023 Q2 AMZN*,high figure recall
+26,acceptable (judge/reference issue),"REFERENCE WRONG: NVDA inventory at Apr 30 2023 is $4,611M (balance sheet p5); answer correct","How have NVIDIA's inventory levels changed during these quarters, and what might this indicate regarding their supply ch",*NVDA*,high figure recall
+64,acceptable (judge/reference issue),REFERENCE WRONG: AMZN Q1 2023 10-Q p16 says 18.6M shares/$2.7B for Q1 2022; answer correct,Has Amazon engaged in any significant share repurchase activities in the reported quarters and what are the financial im,*AMZN*,high figure recall
+65,acceptable (judge/reference issue),Both $68.5B net and $69.472B face value appear in filing; answer defensible,Are there any significant changes in Amazon's debt structure or interest expenses across these quarters?,*AMZN*,high figure recall
+108,acceptable (judge/reference issue),Covers class action/derivative suits; judge nitpicked purchase-obligation figures,"What legal proceedings or contingent liabilities were disclosed in NVIDIA's Q2 2023 10-Q, and what impact could they hav",*2023 Q2 NVDA*,random sample of remaining failures
+135,acceptable (judge/reference issue),"REFERENCE WRONG: reference says no FX data; Q3 2023 10-Q p24 gives FX impacts, answer correct","In the latest 10-Q, how did foreign exchange rates affect Amazon's financials?",*2023 Q3 AMZN*,random sample of remaining failures
+155,acceptable (judge/reference issue),Answer adds real FX impacts; judge penalised extra correct detail,"For Microsoft's Q2 2023 report, assess the connection between Microsoft's earnings from international markets and the di",*2023 Q2 MSFT*,random sample of remaining failures
+58,acceptable (judge/reference issue),"REFERENCE WRONG: AMZN Q1 2023 online stores = $51,096M (p21); reference says $56,455M",How has Amazon's revenue from online retail services fluctuated across quarters?,*AMZN*,random sample of remaining failures
+189,uncertain,,"In the latest 10-Q, how does Amazon's discussion on market risks in the financial section align with the risk factors me",*2023 Q3 AMZN*,random sample of remaining failures
+194,uncertain,,"For Amazon's Q1 2023, how does the share repurchase information in the financial statements correlate with the equity se",*2023 Q1 AMZN*,random sample of remaining failures
+45,uncertain,,"Have there been notable fluctuations in Microsoft's operational expenditures during the reported quarters? If so, what h",*MSFT*,random sample of remaining failures
+110,uncertain,,What changes in debt and interest expense were reported by NVIDIA in the Q1 2023 10-Q?,*2023 Q1 NVDA*,random sample of remaining failures
+6,real error,,Examine how Intel's effective tax rate in the most recent 10-Q compares with the tax-related discussions in the notes se,*2023 Q3 INTC*,high figure recall
+20,real error,,"Has there been a considerable shift in NVIDIA's operating costs over the reported quarters? If so, what are the main cau",*NVDA*,high figure recall
+33,real error,"Q1 2023 R&D given as $4,400M; filing says $4,109M","How does Intel's research and development spending in the most recent quarter compare to previous quarters, and what cou",*INTC*,high figure recall
+50,real error,,"How does Microsoft's research and development spending in the latest quarter stack up against prior quarters, and what a",*MSFT*,high figure recall
+60,real error,,What is the impact of foreign exchange rates on Amazon's financial performance? List this out separately for each report,*AMZN*,high figure recall
+62,real error,,How does Amazon's R&D expenditure in the most recent quarter compare to previous quarters and what implications might th,*AMZN*,high figure recall
+66,real error,,Does Amazon report any significant new business acquisitions or divestitures in these 10-Qs?,*AMZN*,high figure recall
+79,real error,"Read remaining-authorisation $94,569M instead of $18.0B spend","Did Apple report any share repurchase activities in its Q3 2023 10-Q, and if so, what was the scale of these buybacks?",*2023 Q3 AAPL*,high figure recall
+94,real error,,What details were provided about changes in Microsoft's debt and interest expenses in the Q1 2023 10-Q?,*2023 Q1 MSFT*,high figure recall
+125,real error,Misattributed 642.0% to Q3 2022,"What was the effective tax rate for Intel as stated in the most recent 10-Q, and how does this compare to previous quart",*2023 Q3 INTC*,high figure recall
+126,real error,,Were there any significant business acquisitions or divestitures mentioned by Intel in the Q2 2023 10-Q?,*2023 Q2 INTC*,high figure recall
+151,real error,,"In the most recent 10-Q, analyze how Apple's reported tax rate in the financial statements section correlates with the d",*2023 Q3 AAPL*,high figure recall
+169,real error,,"For NVIDIA's Q1 2023 10-Q, compare the details of debt instruments in the financial statements with the management discu",*2023 Q1 NVDA*,high figure recall
+35,real error,,Are there any significant alterations in Intel's debt structure or interest costs over these quarters?,*INTC*,random sample of remaining failures
+114,real error,,"Which risk factors were highlighted by NVIDIA in its Q3 2023 10-Q, especially those that are new or have intensified?",*2023 Q3 NVDA*,random sample of remaining failures
+44,real error,,What are the key elements that have influenced the shift in Microsoft's gross margin in the latest quarterly report comp,*MSFT*,random sample of remaining failures
+47,real error,,What patterns can be discerned from Microsoft's Cloud Services revenue throughout the reported periods?,*MSFT*,random sample of remaining failures
+34,real error,,"What legal proceedings or potential liabilities have been disclosed in Intel's 10-Qs, and how might they impact the comp",*INTC*,random sample of remaining failures
+32,real error,,Are there identifiable trends in Intel's Data Center Group or IoT segment revenues over the reported periods?,*INTC*,random sample of remaining failures
+157,real error,,"In Microsoft's Q3 2022 10-Q, how does the information on legal contingencies connect with financial reserves or provisio",*2022 Q3 MSFT*,random sample of remaining failures
+170,real error,,Analyze how NVIDIA's reported tax rate in the most recent 10-Q correlates with the discussion on tax contingencies in th,*2023 Q3 NVDA*,random sample of remaining failures
+37,real error,,How does Microsoft's revenue distribution across its various business segments in the latest 10-Q compare to the cost of,*2023 Q3 MSFT*,random sample of remaining failures
+83,real error,,How did Apple's inventory levels in the Q3 2022 report reflect on their supply chain efficiency?,*2022 Q3 AAPL*,random sample of remaining failures
+10,real error,,What legal proceedings or contingencies are disclosed in these 10-Qs and how might they potentially impact Apple?,*AAPL*,random sample of remaining failures
+121,real error,,What were the cash flow from operations figures for Intel as per the Q3 2022 10-Q?,*2022 Q3 INTC*,random sample of remaining failures
+148,real error,,"In Apple's Q3 2023 10-Q, analyze how the reported changes in Apple's inventory levels relate to the discussion in their ",*2023 Q3 AAPL*,random sample of remaining failures
+68,real error,,Are there any significant changes or new disclosures in Amazon's accounting policies as reported in these 10-Qs?,*AMZN*,random sample of remaining failures
+49,real error,,What significant movements have been observed in Microsoft's liquidity status or cash flow as per the quarterly reports?,*MSFT*,random sample of remaining failures
+150,real error,,"In Apple's Q1 2023 10-Q, combine the data on Apple's debt instruments from the financial statements with the management ",*2023 Q1 AAPL*,random sample of remaining failures
