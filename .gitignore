@@ -1,0 +1,6 @@
+.env
+__pycache__/
+rag_store/
+pdfs/
+*.pyc
+*.pdf
